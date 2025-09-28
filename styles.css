@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2px;
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 15px;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkslategray;
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  border-bottom: 3px solid lightgreen;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: aliceblue;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 3px solid lightgreen;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/spiration-dark.png");
+  color:aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section img {
+  float: left;
+  margin: 0 20px 10px 0;
+  border-radius: 5px;
+}
+
+.link {
+  margin: 0 4px;
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.social-box {
+  flex: start;
+  background: black;
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  background-color: darkslategray;
+  padding: 24px 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  border-top: 3px solid lightgreen;
+}
